@@ -44,4 +44,31 @@ public class BasicAttribute {
 	@Column
 	private String generateRule;
 
+	/**
+	 * @return the id
+	 */
+	public String getId() {
+		return id;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @return the description
+	 */
+	public String getDescription() {
+		return description;
+	}
+
+	/**
+	 * @return the generateRule
+	 */
+	public String getGenerateRule() {
+		return generateRule;
+	}
 }

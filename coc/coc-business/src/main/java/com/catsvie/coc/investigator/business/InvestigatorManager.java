@@ -3,6 +3,7 @@
  */
 package com.catsvie.coc.investigator.business;
 
+import com.catsvie.coc.commons.dice.exception.RollDiceException;
 import com.catsvie.coc.investigator.domain.Investigator;
 
 /**
@@ -16,6 +17,7 @@ public interface InvestigatorManager {
 	 * but no skills, name, or gender are set. TODO: JAVADOC METHOD
 	 * 
 	 * @return
+	 * @throws RollDiceException
 	 */
-	Investigator initInvestigator();
+	Investigator initInvestigator() throws RollDiceException;
 }
